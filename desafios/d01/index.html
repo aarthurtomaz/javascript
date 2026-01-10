@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 01</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            color: white;
+            text-shadow: 4px 2px 5px black;
+        }
+        nav li{
+            display: inline-block;
+            border: 25px solid rgb(255, 255, 255);
+            box-shadow: 2px 2px 5px;
+        }
+        nav li:hover{
+            background-color: lightgray;
+            background-color: rgba(127, 127, 194, 0.89); 
+            cursor: pointer;  
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>desafio das mensagens</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li onclick="alert('você clicou no Botão1')">Botão1</li>
+            <li onclick="alert('você clicou no Botão2')">Botão2</li>
+            <li onclick="alert('você clicou no Botão3')">Botão3</li>
+        </ul>
+    </nav>
+    <script>
+        function alert1(){`você clicou no ${Botao1}`}
+    </script>
+</body>
+</html>
