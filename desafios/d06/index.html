@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio 06</title>
+        <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        #botao{
+            background-color: black;
+            color: white;
+            margin: 15px;
+            padding: 5px;
+            width: 150px;
+            box-shadow: 6px 5px 5px #00000087;
+        }
+        #botao:hover{
+            background-color: aliceblue;
+            color: rgb(0, 0, 0);
+        }
+        #botao > p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Conversor de Temperatura</h1>
+    </header>
+    <section>
+        <div id="botao" onclick="clicar()">
+            <p>converter</p>
+        </div>
+        <div id="res">
+            resposta saira aqui...
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
